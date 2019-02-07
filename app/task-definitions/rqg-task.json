@@ -1,0 +1,14 @@
+[
+  {
+    "name": "rqg-task",
+    "image": "resmas/rqgmachine:1.0.4",
+    "essential": true,
+    "memory": 300,
+    "portMappings": [
+      {
+        "containerPort": 3000,
+        "hostPort": 80
+      }
+    ]
+  }
+]
